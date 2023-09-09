@@ -1,0 +1,9 @@
+numpy>=1.25.2
+plotly>=5.16.1
+streamlit>=1.26.0
+
+[dev]
+mkdocs>=1.5.2
+mkdocs-material>=9.2.8
+mkdocstrings>=0.23.0
+mkdocstrings-python>=1.6.2
