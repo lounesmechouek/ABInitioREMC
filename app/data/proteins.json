@@ -1,0 +1,3140 @@
+[    
+    {
+        "name": "S1-1",
+        "sequence": [
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            }
+
+        ],
+        "e_star": -9,
+        "recommended_dimension": 2
+    },
+    {
+        "name": "S1-2",
+        "sequence": [
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            }
+        ],
+        "e_star": -9,
+        "recommended_dimension": 2
+    },
+    {
+        "name": "S1-3",
+        "sequence":[
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            }
+        ],
+        "e_star": -8,
+        "recommended_dimension": 2
+    },
+    {
+        "name": "S1-4",
+        "sequence":[
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            }
+        ],
+        "e_star": -14,
+        "recommended_dimension": 2
+    },
+    {
+        "name": "S1-5",
+        "sequence":[
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            }
+        ],
+        "e_star": -23,
+        "recommended_dimension": 2
+    },
+    {
+        "name": "S1-6",
+        "sequence":[
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            }
+        ],
+        "e_star": -21,
+        "recommended_dimension": 2
+    },
+    {
+        "name": "S1-7",
+        "sequence":[
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            }
+        ],
+        "e_star": -36,
+        "recommended_dimension": 2
+    },
+    {
+        "name": "S1-8",
+        "sequence":[
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            }
+        ],
+        "e_star": -42,
+        "recommended_dimension": 2
+    },
+    {
+        "name": "S1-9",
+        "sequence":[
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            }
+        ],
+        "e_star": -53,
+        "recommended_dimension": 2
+    },
+    {
+        "name": "S1-10",
+        "sequence":[
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            }
+        ],
+        "e_star": -50,
+        "recommended_dimension": 2
+    },
+    {
+        "name": "S1-11",
+        "sequence":[
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "P"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            },
+            {
+                "name": "",
+                "abbreviation":"",
+                "polarity": "H"
+            }
+        ],
+        "e_star": -48,
+        "recommended_dimension": 2
+    }
+]

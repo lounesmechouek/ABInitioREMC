@@ -48,7 +48,7 @@ If you're more of a Conda user, follow these steps :
   ```console
   pip install .
   ```
-- Run the server config (just the first time):
+- Run the server config (not mandatory):
   ```console
   python server_config/config.py
   ```
@@ -76,7 +76,7 @@ If you opt to utilize the traditional Python virtual environments, please adhere
   ```console
   pip install .
   ```
-- Run the server config (only the first time) :
+- Run the server config (not mandatory) :
   ```console
   python server_config/config.py
   ```
