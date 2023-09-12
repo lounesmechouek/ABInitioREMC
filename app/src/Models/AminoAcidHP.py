@@ -33,4 +33,37 @@ class AminoAcidHP(AminoAcid):
         self._polarity = polarity
 
     def acide_model(self) -> str:
+        """Returns the type of the amino acid.
+
+        Returns
+        -------
+        str
+            Type of the amino acid.
+        """
         return "Hydrophibic-Polar"
+
+    def __str__(self) -> str:
+        """Returns a string representation of the amino acid.
+
+        Returns
+        -------
+        str
+            String representation of the amino acid.
+        """
+        if self.polarity == Polarity.POLAR:
+            return "P"
+        else:
+            return "H"
+
+    def __repr__(self) -> str:
+        """Returns a string representation of the amino acid.
+
+        Returns
+        -------
+        str
+            String representation of the amino acid.
+        """
+        if self.polarity == Polarity.POLAR:
+            return "P"
+        else:
+            return "H"

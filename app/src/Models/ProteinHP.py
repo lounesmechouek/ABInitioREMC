@@ -56,3 +56,23 @@ class ProteinHP(Protein):
 
     def protein_model(self) -> str:
         return "Hydrophobic-Polar"
+
+    def __repr__(self) -> str:
+        """Returns a string representation of the protein.
+
+        Returns
+        -------
+        str
+            String representation of the protein.
+        """
+        return f"{''.join([str(amino_acid) for amino_acid in self.sequence])}"
+
+    def __str__(self) -> str:
+        """Returns a string representation of the protein.
+
+        Returns
+        -------
+        str
+            String representation of the protein.
+        """
+        return f"{''.join([str(amino_acid) for amino_acid in self.sequence])}"

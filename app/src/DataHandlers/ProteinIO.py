@@ -1,13 +1,14 @@
 from abc import ABC, abstractmethod
 
 from ..Models.Protein import Protein
+from ..Models.ProteinModel import ProteinModel
 
 
 class ProteinIO(ABC):
     """This is an interface used for reading and writing protein data."""
 
     @abstractmethod
-    def load_proteins(self) -> list[Protein]:
+    def load_proteins(self, protein_model: ProteinModel) -> list[Protein]:
         """Loads proteins from a data source.
 
         Returns
@@ -18,7 +19,9 @@ class ProteinIO(ABC):
         pass
 
     @abstractmethod
-    def save_proteins(self, proteins: list[Protein]) -> None:
+    def save_proteins(
+        self, proteins: list[Protein], protein_model: ProteinModel
+    ) -> None:
         """Saves proteins to a destination.
 
         Parameters
