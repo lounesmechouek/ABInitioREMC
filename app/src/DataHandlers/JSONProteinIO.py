@@ -102,6 +102,7 @@ class JSONProteinIO(ProteinIO):
             List of proteins converted from a JSON object.
         """
         proteins = []
+        id_amino = 0
         for protein in json_data:
             seq_amino_acids = []
             for amino_acid in protein["sequence"]:
@@ -118,6 +119,7 @@ class JSONProteinIO(ProteinIO):
                 try:
                     seq_amino_acids.append(
                         AminoAcidHP(
+                            id_amino,
                             amino_acid["name"],
                             amino_acid["abbreviation"],
                             pol,
@@ -126,6 +128,7 @@ class JSONProteinIO(ProteinIO):
                 except Exception as e:
                     # TODO : Check for the specific exceptions that can be raised during the creation of an AminoAcidHP object.
                     raise e
+                id_amino += 1
 
             try:
                 proteins.append(

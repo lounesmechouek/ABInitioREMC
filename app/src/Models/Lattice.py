@@ -1,66 +1,67 @@
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
+from typing import Tuple
 
 from .TopoCoordinates import TopoCoordinates
 
 
+@dataclass(slots=True)
 class Lattice(ABC):
     """Abstract class that represents a lattice."""
 
-    dimensions: list[int]  # Dimensions of the lattice
-    cell_values: dict[
-        TopoCoordinates, bool
-    ]  # Values of the cells of the lattice (0 : empty, 1 : occupied)
+    _dimensions: Tuple[int, ...]  # Dimensions of the lattice (x, y)
+
+    _cell_values: dict[
+        Tuple[int, ...], bool
+    ]  # Values of the cells of the lattice (False : empty, True : occupied
 
     @property
-    def dimensions(self) -> list[int]:
+    def dimensions(self) -> Tuple[int, ...]:
         """Getter for the attribute dimensions of the lattice.
 
         Returns
         -------
-        list[int]
+        tuple[int, ...]
             Dimensions of the lattice.
         """
         return self._dimensions
 
     @dimensions.setter
-    def dimensions(self, dimensions: list[int]) -> None:
+    def dimensions(self, dimensions: Tuple[int, ...]) -> None:
         """Setter for the attribute dimensions of the lattice.
 
         Parameters
         ----------
-        dimensions : list[int]
+        dimensions : tuple[int, ...]
             Dimensions of the lattice to be assigned.
         """
         self._dimensions = dimensions
 
     @property
-    def cell_values(self) -> dict[TopoCoordinates, bool]:
+    def cell_values(self) -> dict[Tuple[int, ...], bool]:
         """Getter for the attribute cell_values of the lattice.
 
         Returns
         -------
-        dict[TopoCoordinates, bool]
+        dict[Tuple[int, ...], bool]
             Values of the cells of the lattice.
         """
         return self._cell_values
 
     @cell_values.setter
-    def cell_values(self, cell_values: dict[TopoCoordinates, bool]) -> None:
+    def cell_values(self, cell_values: dict[Tuple[int, ...], bool]) -> None:
         """Setter for the attribute cell_values of the lattice.
 
         Parameters
         ----------
-        cell_values : dict[TopoCoordinates, bool]
+        cell_values : dict[Tuple[int, ...], bool]
             Values of the cells of the lattice to be assigned.
         """
         self._cell_values = cell_values
 
     @abstractmethod
-    def are_topological_neighbours(
-        self, cell1: TopoCoordinates, cell2: TopoCoordinates
-    ) -> bool:
-        """Checks if two cells are topological neighbours.
+    def are_adjacent(self, cell1: TopoCoordinates, cell2: TopoCoordinates) -> bool:
+        """Checks if two cells are adjacent.
 
         Parameters
         ----------
@@ -72,25 +73,7 @@ class Lattice(ABC):
         Returns
         -------
         bool
-            True if the cells are topological neighbours, False otherwise.
-        """
-        pass
-
-    @abstractmethod
-    def get_topological_neighbours(
-        self, cell: TopoCoordinates
-    ) -> list[TopoCoordinates]:
-        """Returns the topological neighbours of a cell.
-
-        Parameters
-        ----------
-        cell : TopoCoordinates
-            Cell.
-
-        Returns
-        -------
-        list[TopoCoordinates]
-            Topological neighbours of the cell.
+            True if the cells are adjacent. False otherwise.
         """
         pass
 
