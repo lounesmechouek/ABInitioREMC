@@ -68,9 +68,10 @@ class SimpleMonteCarlo:
             Optimized conformation.
         """
         optimal_conformation = copy.deepcopy(conformation)
-        neighbourhood = []
 
         for i in range(self._phi):
+            neighbourhood = []
+
             # We compute the neighbourhood of the conformation
             try:
                 neighbourhood = conf_manager.compute_vhsd_neighbourhood(
@@ -84,7 +85,7 @@ class SimpleMonteCarlo:
                 return optimal_conformation
 
             # We select a random conformation from the neighbourhood.
-            random_conformation = random.choice(neighbourhood)
+            random_conformation = copy.deepcopy(random.choice(neighbourhood))
 
             # We compute the energy of the conformations.
             try:
@@ -97,16 +98,17 @@ class SimpleMonteCarlo:
                 random_conformation.computed_energy
                 < optimal_conformation.computed_energy
             ):
-                optimal_conformation = random_conformation
+                optimal_conformation = copy.deepcopy(random_conformation)
             else:
                 q = random.uniform(0, 1)
-                if q > math.exp(
+                threshold = math.exp(
                     -(
                         random_conformation.computed_energy
                         - optimal_conformation.computed_energy
                     )
                     / temperature
-                ):
-                    optimal_conformation = random_conformation
+                )
+                if q > threshold:
+                    optimal_conformation = copy.deepcopy(random_conformation)
 
         return optimal_conformation

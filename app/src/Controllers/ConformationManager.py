@@ -202,64 +202,74 @@ class ConformationManager:
 
         for coord in conformation.amino_acid_coordinates:
             new_positions = []
-
             # We first compute the possible end moves
             # End moves are made on the first and last amino acids of the protein
+
             if coord in [
                 conformation.get_amino_acid_coordinates(
                     conformation.protein.sequence[0]
-                ),
+                ).coordinates,
                 conformation.get_amino_acid_coordinates(
                     conformation.protein.sequence[
                         len(conformation.protein.sequence) - 1
                     ]
-                ),
+                ).coordinates,
             ]:
                 try:
                     if dim == 2:
                         new_end_positions = conformation.lattice.compute_end_moves(
-                            Coordinates2D(coord)
+                            Coordinates2D(coord),
+                            conformation.protein,
+                            conformation.amino_acid_coordinates,
                         )
                     else:
                         new_end_positions = conformation.lattice.compute_end_moves(
-                            Coordinates3D(coord)
+                            Coordinates3D(coord),
+                            conformation.protein,
+                            conformation.amino_acid_coordinates,
                         )
 
                     for pos in new_end_positions:
                         new_positions.append(pos)
                 except Exception as e:
-                    print(e)
-                    print(
-                        f"No end moves possible for {coord} in {conformation.protein}"
-                    )
+                    # print(e)
+                    # print(
+                    #    f"No end moves possible for {coord} in {conformation.protein}"
+                    # )
+                    pass
 
             # Then we compute corner moves when possible on the rest of the residues
             if coord not in [
                 conformation.get_amino_acid_coordinates(
                     conformation.protein.sequence[0]
-                ),
+                ).coordinates,
                 conformation.get_amino_acid_coordinates(
                     conformation.protein.sequence[
                         len(conformation.protein.sequence) - 1
                     ]
-                ),
+                ).coordinates,
             ]:
                 try:
                     if dim == 2:
                         new_corner_position = conformation.lattice.compute_corner_moves(
-                            Coordinates2D(coord)
+                            Coordinates2D(coord),
+                            conformation.protein,
+                            conformation.amino_acid_coordinates,
                         )
                     else:
                         new_corner_position = conformation.lattice.compute_corner_moves(
-                            Coordinates3D(coord)
+                            Coordinates3D(coord),
+                            conformation.protein,
+                            conformation.amino_acid_coordinates,
                         )
                     for pos in new_corner_position:
                         new_positions.append(pos)
                 except Exception as e:
-                    print(e)
-                    print(
-                        f"No corner moves possible for {coord} in {conformation.protein}"
-                    )
+                    # print(e)
+                    # print(
+                    #    f"No corner moves possible for {coord} in {conformation.protein}"
+                    # )
+                    pass
 
             if len(new_positions) > 0:
                 for new_pos in new_positions:
@@ -289,6 +299,7 @@ class ConformationManager:
                     self._conformations.append(new_conf)
                     neighbourhood.append(new_conf)
             else:
-                print(f"/!/ No moves possible for {coord} in {conformation.protein}")
+                # print(f"/!/ No moves possible for {coord} in {conformation.protein}")
+                pass
 
         return neighbourhood

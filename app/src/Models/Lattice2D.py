@@ -2,8 +2,10 @@ import random
 from dataclasses import dataclass
 from typing import Tuple
 
+from .AminoAcidHP import AminoAcidHP
 from .Coordinates2D import Coordinates2D
 from .Lattice import Lattice
+from .ProteinHP import ProteinHP
 
 
 @dataclass(slots=True)
@@ -154,17 +156,26 @@ class Lattice2D(Lattice):
 
         return candidates
 
-    def compute_end_moves(self, cell: Coordinates2D) -> list[Tuple[int, int]]:
+    def compute_end_moves(
+        self,
+        cell: Coordinates2D,
+        protein: ProteinHP,
+        amino_acid_coords: dict[Tuple[int, int], AminoAcidHP],
+    ) -> list[Tuple[int, int]]:
         """Computes the end moves for a given cell.
 
         Parameters
         ----------
         cell : Coordinates2D
             The cell to compute the end moves for.
+        protein : ProteinHP
+            The studied protein.
+        amino_acid_coords: dict[Tuple[int, int], AminoAcidHP]
+            Dictionary containing the coordinates of the amino acids in the conformation.
 
         Returns
         -------
-        list[Coordinates2D]
+        list[Tuple[int, int]]
             List of possible new positions.
         """
         # We get all the adjacent cells:
@@ -173,19 +184,23 @@ class Lattice2D(Lattice):
         if len(adjacent_cells) == 0:
             raise ValueError("Cell has no adjacent cells.")
 
-        # We make sure there is exactly one adjacent cell that is occupied:
+        # We make sure there is exactly one connected neighbour to the cell that is occupied:
         neighbour = None
         neighbour_counter = 0
+
         for adjacent_cell in adjacent_cells:
             if self._cell_values[adjacent_cell]:
-                if neighbour_counter == 0:
-                    neighbour = adjacent_cell
-                    neighbour_counter += 1
-                else:
-                    raise ValueError(
-                        "Cell has more than one occupied adjacent cell. This is not an end cell."
-                    )
-
+                if protein.are_neighbours(
+                    amino_acid_coords[adjacent_cell],
+                    amino_acid_coords[cell.coordinates],
+                ):
+                    if neighbour_counter == 0:
+                        neighbour = adjacent_cell
+                        neighbour_counter += 1
+                    else:
+                        raise ValueError(
+                            "Cell has more than one occupied adjacent cell. This is not an end cell."
+                        )
         if neighbour is None:
             raise ValueError("Cell has no occupied adjacent cell. No move is possible.")
 
@@ -210,13 +225,22 @@ class Lattice2D(Lattice):
 
         return new_positions
 
-    def compute_corner_moves(self, cell: Coordinates2D) -> list[Tuple[int, int]]:
+    def compute_corner_moves(
+        self,
+        cell: Coordinates2D,
+        protein: ProteinHP,
+        amino_acid_coords: dict[Tuple[int, int], AminoAcidHP],
+    ) -> list[Tuple[int, int]]:
         """Computes the corner moves for a given cell.
 
         Parameters
         ----------
         cell : Coordinates2D
             The cell to compute the corner moves for.
+        protein : ProteinHP
+            The studied protein.
+        amino_acid_coords: dict[Tuple[int, int], AminoAcidHP]
+            Dictionary containing the coordinates of the amino acids in the conformation.
 
         Returns
         -------
@@ -229,11 +253,15 @@ class Lattice2D(Lattice):
         if len(adjacent_cells) == 0:
             raise ValueError("Cell has no adjacent cells.")
 
-        # We make sure there are exactly two adjacent cells that are occupied:
+        # We make sure there are exactly two connected neighbours:
         neighbours = []
         for adjacent_cell in adjacent_cells:
             if self._cell_values[adjacent_cell]:
-                neighbours.append(adjacent_cell)
+                if protein.are_neighbours(
+                    amino_acid_coords[adjacent_cell],
+                    amino_acid_coords[cell.coordinates],
+                ):
+                    neighbours.append(adjacent_cell)
 
         if len(neighbours) != 2:
             raise ValueError(

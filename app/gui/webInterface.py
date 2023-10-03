@@ -1,3 +1,4 @@
+import copy
 import os
 
 import streamlit as st
@@ -43,21 +44,21 @@ def main():
         max_iterations = st.number_input(
             "Max number iterations",
             value=10,
-            step=50,
+            step=10,
             min_value=10,
             max_value=1000000,
         )
 
         search_steps = st.number_input(
-            "Number of search steps", value=50, step=50, min_value=1, max_value=10000
+            "Number of search steps", value=100, step=50, min_value=10, max_value=10000
         )
 
         st.text("Temperature")
         min_temp = st.number_input(
-            "Min", value=100, step=10, min_value=1, max_value=100000
+            "Min", value=5, step=5, min_value=1, max_value=100000
         )
         max_temp = st.number_input(
-            "Max", value=200, step=10, min_value=1, max_value=100000
+            "Max", value=200, step=5, min_value=2, max_value=100000
         )
 
         nb_replicas = st.number_input(
@@ -129,7 +130,7 @@ def main():
                     if i == 2 and dims == 3:
                         lattice_dims.append(
                             st.number_input(
-                                "Dimension {i}",
+                                f"Dimension {i}",
                                 value=0,
                                 step=1,
                                 min_value=0,
@@ -167,42 +168,42 @@ def main():
                     )
                     st.write(
                         "Initial Conformation energy: ",
-                        initial_conformation.computed_energy,
+                        initial_conformation.compute_energy(),
                     )
 
                     MC = REMC(
-                        search_steps,
-                        nb_replicas,
-                        min_temp,
-                        max_temp,
+                        int(search_steps),
+                        int(nb_replicas),
+                        int(min_temp),
+                        int(max_temp),
                         conf_manager,
-                        max_iter=max_iterations,
+                        max_iter=int(max_iterations),
                         rho=prob_pull_moves,
                     )
 
-                    optimal_conformation = initial_conformation
+                    optimal_conformation = copy.deepcopy(initial_conformation)
                     with st.spinner(
-                        text="Running REMC, this may take a moment depending or the parameters..."
+                        text="Running REMC, this may take a moment depending on the parameters..."
                     ):
                         optimal_conformation = MC.optimize(
-                            initial_conformation, proteins[chosen_idx - 1].e_star
+                            initial_conformation, initial_conformation.protein.e_star
                         )
 
                     st.write(
                         "Optimal energy found by REMC: ",
-                        initial_conformation.compute_energy(),
+                        optimal_conformation.compute_energy(),
                     )
 
                     if dims == 2:
                         drawer = ConformationDrawer2D(
-                            optimal_conformation, {"H": 1, "P": 0}
+                            optimal_conformation, {"H": 0, "P": 1}
                         )
-                        drawer.draw()
+                        st.plotly_chart(drawer.draw())
                     else:
                         drawer = ConformationDrawer3D(
                             optimal_conformation, {"H": "black", "P": "red"}
                         )
-                        drawer.draw()
+                        st.plotly_chart(drawer.draw())
 
                 except Exception as e:
                     st.error(e)
@@ -251,15 +252,15 @@ def main():
 
             j += 1
 
-        prots = []
+        prot = None
         if dimensions == "2D" and e_star != 0:
-            prots.append(ProteinHP("Custom-1", seq, e_star, 2))
+            prot = ProteinHP("Custom-1", seq, e_star, 2)
         elif dimensions == "3D" and e_star != 0:
-            prots.append(ProteinHP("Custom-1", seq, e_star, 3))
+            prot = ProteinHP("Custom-1", seq, e_star, 3)
         else:
             pass
 
-        if len(prots) != 0:
+        if not prot is None:
             st.write("Please type the dimensions of the lattice to use")
             cols = st.columns(3)
 
@@ -281,7 +282,7 @@ def main():
                     if i == 2 and dimensions == "3D":
                         lattice_dims.append(
                             st.number_input(
-                                "Dimension {i}",
+                                f"Dimension {i}",
                                 value=0,
                                 step=1,
                                 min_value=0,
@@ -306,15 +307,18 @@ def main():
                     lattice = Lattice3D(
                         (lattice_dims[0], lattice_dims[1], lattice_dims[2])
                     )
-            for cur_prot in prots:
-                conf_manager = ConformationManager(cur_prot)
+
+                conf_manager = ConformationManager(prot)
 
                 try:
                     initial_conformation = conf_manager.create_initial_conformation(
                         lattice.dimensions
                     )
 
-                    st.write("Theoretical protein energy : ", cur_prot.e_star)
+                    st.write(
+                        "Theoretical protein energy : ",
+                        initial_conformation.protein.e_star,
+                    )
                     st.write(
                         "Initial Conformation energy: ",
                         initial_conformation.compute_energy(),
@@ -326,36 +330,36 @@ def main():
                         int(min_temp),
                         int(max_temp),
                         conf_manager,
-                        max_iter=max_iterations,
+                        max_iter=int(max_iterations),
                         rho=prob_pull_moves,
                     )
 
-                    optimal_conformation = initial_conformation
+                    optimal_conformation = copy.deepcopy(initial_conformation)
                     with st.spinner(
                         text="Running REMC, this may take a moment depending on the parameters..."
                     ):
                         optimal_conformation = MC.optimize(
-                            initial_conformation, cur_prot.e_star
+                            initial_conformation, initial_conformation.protein.e_star
                         )
 
                     st.write(
                         "Optimal energy found by REMC: ",
-                        initial_conformation.computed_energy,
+                        optimal_conformation.compute_energy(),
                     )
 
                     if dimensions == "2D":
                         drawer = ConformationDrawer2D(
                             optimal_conformation, {"H": 1, "P": 0}
                         )
-                        drawer.draw()
+                        st.plotly_chart(drawer.draw())
                     else:
                         drawer = ConformationDrawer3D(
                             optimal_conformation, {"H": "black", "P": "red"}
                         )
-                        drawer.draw()
+                        st.plotly_chart(drawer.draw())
 
                 except Exception as e:
-                    # st.error(e)
+                    st.error(e)
                     print(e)
                     st.stop()
 

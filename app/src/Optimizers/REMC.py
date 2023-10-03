@@ -49,7 +49,7 @@ class REMC:
             Probability to use pull moves, by default 0.0
         """
         self._max_iters = max_iter
-        self.phi = phi
+        self._phi = phi
         self._khi = khi
         if tmin > tmax:
             raise ValueError("tmin must be less than tmax.")
@@ -149,45 +149,45 @@ class REMC:
         self._khi = khi
 
     @property
-    def tmin(self) -> float:
+    def tmin(self) -> int:
         """Getter for the attribute tmin of the REMC class.
 
         Returns
         -------
-        float
+        int
             Minimum temperature.
         """
         return self._tmin
 
     @tmin.setter
-    def tmin(self, tmin: float) -> None:
+    def tmin(self, tmin: int) -> None:
         """Setter for the attribute tmin of the REMC class.
 
         Parameters
         ----------
-        tmin : float
+        tmin : int
             Minimum temperature to be assigned.
         """
         self._tmin = tmin
 
     @property
-    def tmax(self) -> float:
+    def tmax(self) -> int:
         """Getter for the attribute tmax of the REMC class.
 
         Returns
         -------
-        float
+        int
             Maximum temperature.
         """
         return self._tmax
 
     @tmax.setter
-    def tmax(self, tmax: float) -> None:
+    def tmax(self, tmax: int) -> None:
         """Setter for the attribute tmax of the REMC class.
 
         Parameters
         ----------
-        tmax : float
+        tmax : int
             Maximum temperature to be assigned.
         """
         self._tmax = tmax
@@ -207,38 +207,40 @@ class REMC:
         Conformation
             Optimized conformation.
         """
-        MonteCarlo = SimpleMonteCarlo(self.phi)
+        MonteCarlo = SimpleMonteCarlo(self._phi)
 
         optimal_energy = conformation.compute_energy()
+        optimal_replica = copy.deepcopy(conformation)
+        replicas = self._khi * [copy.deepcopy(conformation)]
+
         offset = 0
-        optimal_replica = None
-        previous_replicas = self.khi * [conformation]
         iters = 1
 
-        while (optimal_energy > e_star) and (iters <= self._max_iters):
-            print(12 * "--")
-            print("offset: ", offset)
-            print("optimal_energy: ", optimal_energy)
-            replicas = []
-            for k in range(self.khi):
-                try:
-                    replicas.append(
-                        MonteCarlo.optimize(
-                            previous_replicas[k],
-                            self._sampled_temperatures[k],
-                            self.conformation_manager,
-                        )
-                    )
-                except Exception as e:
-                    raise e
+        entered = 0
 
-                print(f"replica {k} : {replicas[k].computed_energy}")
+        print(12 * "####")
+        print(f"=> Initial energy : {str(optimal_energy)}")
+        print(f"=> Initial coords : {str(optimal_replica.amino_acid_coordinates)}")
+        print(f"=> Initial temperatures : {str(self._sampled_temperatures)}")
+
+        while (optimal_energy > e_star) and (iters <= self._max_iters):
+            print(f"******REMC : ITERATION {iters}/{self._max_iters}*******")
+            for k in range(self._khi):
+                # We optimise the replicas
+                replicas[k] = MonteCarlo.optimize(
+                    replicas[k],
+                    self._sampled_temperatures[k],
+                    self._conformation_manager,
+                )
+
                 if replicas[k].computed_energy < optimal_energy:
+                    entered += 1
                     optimal_energy = replicas[k].computed_energy
                     optimal_replica = copy.deepcopy(replicas[k])
+                    print(f"New optimal energy : {str(optimal_energy)} !")
 
             i = offset + 1
-            while i + 1 < self.khi:
+            while i + 1 < self._khi:
                 j = i + 1
                 delta = (
                     1 / self._sampled_temperatures[j]
@@ -249,6 +251,9 @@ class REMC:
                         self._sampled_temperatures[j],
                         self._sampled_temperatures[i],
                     )
+                    print(
+                        f"=> Temperature swipe made : {str(self._sampled_temperatures)}"
+                    )
                 else:
                     q = random.uniform(0, 1)
                     if q <= math.exp(-delta):
@@ -256,10 +261,15 @@ class REMC:
                             self._sampled_temperatures[j],
                             self._sampled_temperatures[i],
                         )
+                        print(
+                            f"=> Temperature swipe made : {str(self._sampled_temperatures)}"
+                        )
                 i += 2
 
-            offset = 1 - offset
-            previous_replicas = copy.deepcopy(replicas)
             iters += 1
+            offset = 1 - offset
 
+        print(f"Optimized {entered} times")
+        print(f"New Energy : {str(optimal_energy)}")
+        print(f"New coords : {str(optimal_replica.amino_acid_coordinates)}")
         return optimal_replica

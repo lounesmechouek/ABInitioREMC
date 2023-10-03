@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+from .AminoAcidHP import AminoAcidHP
 from .Protein import Protein
 
 
@@ -53,6 +54,41 @@ class ProteinHP(Protein):
             Recommended dimension of the protein (2D or 3D) in the HP-Model to be assigned.
         """
         self._recommended_dimension = recommended_dimension
+
+    def are_neighbours(
+        self, amino_acid_1: AminoAcidHP, amino_acid_2: AminoAcidHP
+    ) -> bool:
+        """Checks if two amino acids are neighbours in the protein.
+
+        Parameters
+        ----------
+        amino_acid_1 : AminoAcidHP
+            First amino acid.
+        amino_acid_2 : AminoAcidHP
+            Second amino acid.
+
+        Returns
+        -------
+        bool
+            True if the amino acids are neighbours, False otherwise.
+        """
+        index_amino1 = None
+        index_amino2 = None
+        for i, residue in enumerate(self.sequence):
+            if residue.id == amino_acid_1.id:
+                index_amino1 = i
+            elif residue.id == amino_acid_2.id:
+                index_amino2 = i
+
+            if index_amino1 is not None and index_amino2 is not None:
+                break
+
+        if index_amino1 is None or index_amino2 is None:
+            return False
+
+        else:
+            neighbours = abs(index_amino1 - index_amino2) == 1
+            return neighbours
 
     def protein_model(self) -> str:
         return "Hydrophobic-Polar"

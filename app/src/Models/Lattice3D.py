@@ -2,8 +2,10 @@ import random
 from dataclasses import dataclass
 from typing import Tuple
 
+from .AminoAcidHP import AminoAcidHP
 from .Coordinates3D import Coordinates3D
 from .Lattice import Lattice
+from .ProteinHP import ProteinHP
 
 
 @dataclass(slots=True)
@@ -217,17 +219,26 @@ class Lattice3D(Lattice):
 
         return candidates
 
-    def compute_end_moves(self, cell: Coordinates3D) -> list[Tuple[int, int, int]]:
+    def compute_end_moves(
+        self,
+        cell: Coordinates3D,
+        protein: ProteinHP,
+        amino_acid_coords: dict[Tuple[int, int], AminoAcidHP],
+    ) -> list[Tuple[int, int, int]]:
         """Computes the end moves of a given cell.
 
         Parameters
         ----------
         cell : Coordinates3D
             The cell to compute the end moves of.
+        protein : ProteinHP
+            The studied protein.
+        amino_acid_coords: dict[Tuple[int, int], AminoAcidHP]
+            Dictionary containing the coordinates of the amino acids in the conformation.
 
         Returns
         -------
-        list[Coordinates3D]
+        list[Tuple[int, int, int]]
             List of end moves.
         """
         # We get all the adjacent cells:
@@ -241,13 +252,17 @@ class Lattice3D(Lattice):
         neighbour_counter = 0
         for adjacent_cell in adjacent_cells:
             if self._cell_values[adjacent_cell]:
-                if neighbour_counter == 0:
-                    neighbour = adjacent_cell
-                    neighbour_counter += 1
-                else:
-                    raise ValueError(
-                        "Cell has more than one occupied adjacent cell. This is not an end cell."
-                    )
+                if protein.are_neighbours(
+                    amino_acid_coords[adjacent_cell],
+                    amino_acid_coords[cell.coordinates],
+                ):
+                    if neighbour_counter == 0:
+                        neighbour = adjacent_cell
+                        neighbour_counter += 1
+                    else:
+                        raise ValueError(
+                            "Cell has more than one occupied adjacent cell. This is not an end cell."
+                        )
 
         if neighbour is None:
             raise ValueError("Cell has no occupied adjacent cell. No move is possible.")
@@ -273,13 +288,22 @@ class Lattice3D(Lattice):
 
         return new_positions
 
-    def compute_corner_moves(self, cell: Coordinates3D) -> list[Tuple[int, int, int]]:
+    def compute_corner_moves(
+        self,
+        cell: Coordinates3D,
+        protein: ProteinHP,
+        amino_acid_coords: dict[Tuple[int, int], AminoAcidHP],
+    ) -> list[Tuple[int, int, int]]:
         """Computes the corner moves of a given cell.
 
         Parameters
         ----------
         cell : Coordinates3D
             The cell to compute the corner moves of.
+        protein : ProteinHP
+            The studied protein.
+        amino_acid_coords: dict[Tuple[int, int], AminoAcidHP]
+            Dictionary containing the coordinates of the amino acids in the conformation.
 
         Returns
         -------
@@ -296,7 +320,11 @@ class Lattice3D(Lattice):
         neighbours = []
         for adjacent_cell in adjacent_cells:
             if self._cell_values[adjacent_cell]:
-                neighbours.append(adjacent_cell)
+                if protein.are_neighbours(
+                    amino_acid_coords[adjacent_cell],
+                    amino_acid_coords[cell.coordinates],
+                ):
+                    neighbours.append(adjacent_cell)
 
         if len(neighbours) != 2:
             raise ValueError(
